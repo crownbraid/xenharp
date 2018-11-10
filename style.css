@@ -1,0 +1,24 @@
+#harp {
+  margin: 0 auto;
+  text-align: center;
+}
+
+.harp-string {
+  height: 450px;
+  width: 5px;
+  margin: 0 9px;
+  background-color: gray;
+  display: inline-block;
+}
+
+#C1, #C2, #C3, #C4 {
+  background-color: blue;
+}
+
+#G1, #G2, #G3, #G4 {
+  background-color: red;
+}
+
+.harp-pedal {
+	width: 75px;
+}
