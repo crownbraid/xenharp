@@ -20,5 +20,14 @@
 }
 
 .harp-pedal {
-	width: 75px;
+	width: 110px;
+}
+
+#harp-strings, #harp-pedals {
+  display: inline-block;
+  vertical-align: top; 
+}
+
+#harp-strings {
+  margin-right: 60px;
 }

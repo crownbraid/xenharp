@@ -1,7 +1,7 @@
 // we'll replace this code when we have a UI
 var harp = 
-	"<h3>Strings (A-G, 3 octaves):</h3>" + 
 	"<div id=\"harp-strings\">" + 
+		"<h3>STRINGS:</h3>" + 
 		"<div id=\"A1\" class=\"harp-string\"></div>" +
 		"<div id=\"B1\" class=\"harp-string\"></div>" +
 		"<div id=\"C1\" class=\"harp-string\"></div>" +
@@ -33,13 +33,13 @@ var harp =
 		"<div id=\"A5\" class=\"harp-string\"></div>" +
 	"</div>" +
 	"<div id=\"harp-pedals\">" + 
-		"<h3>PEDALS:</h3>" +
-		"A: <input type=\"range\" min=\"-5\" max=\"5\" value=\"0\" id=\"A-pedal\" class=\"harp-pedal\">" +
-		"B: <input type=\"range\" min=\"-5\" max=\"5\" value=\"0\" id=\"B-pedal\" class=\"harp-pedal\">" +
-		"C: <input type=\"range\" min=\"-5\" max=\"5\" value=\"0\" id=\"C-pedal\" class=\"harp-pedal\">" +
-		"D: <input type=\"range\" min=\"-5\" max=\"5\" value=\"0\" id=\"D-pedal\" class=\"harp-pedal\">" +
-		"E: <input type=\"range\" min=\"-5\" max=\"5\" value=\"0\" id=\"E-pedal\" class=\"harp-pedal\">" +
-		"F: <input type=\"range\" min=\"-5\" max=\"5\" value=\"0\" id=\"F-pedal\" class=\"harp-pedal\">" +
+		"<h3>PEDALS:</h3></br></br>" +
+		"A: <input type=\"range\" min=\"-5\" max=\"5\" value=\"0\" id=\"A-pedal\" class=\"harp-pedal\"></br></br></br>" +
+		"B: <input type=\"range\" min=\"-5\" max=\"5\" value=\"0\" id=\"B-pedal\" class=\"harp-pedal\"></br></br></br>" +
+		"C: <input type=\"range\" min=\"-5\" max=\"5\" value=\"0\" id=\"C-pedal\" class=\"harp-pedal\"></br></br></br>" +
+		"D: <input type=\"range\" min=\"-5\" max=\"5\" value=\"0\" id=\"D-pedal\" class=\"harp-pedal\"></br></br></br>" +
+		"E: <input type=\"range\" min=\"-5\" max=\"5\" value=\"0\" id=\"E-pedal\" class=\"harp-pedal\"></br></br></br>" +
+		"F: <input type=\"range\" min=\"-5\" max=\"5\" value=\"0\" id=\"F-pedal\" class=\"harp-pedal\"></br></br></br>" +
 		"G: <input type=\"range\" min=\"-5\" max=\"5\" value=\"0\" id=\"G-pedal\" class=\"harp-pedal\">" +
 	"</div>"
 
