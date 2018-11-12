@@ -31,3 +31,9 @@
 #harp-strings {
   margin-right: 60px;
 }
+
+.cents {
+  width: 3em;
+  max-width: 3em;
+  display: inline-block;
+}

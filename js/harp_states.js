@@ -67,6 +67,12 @@ $(".harp-pedal").each(function() {
 
 	pedal.change(function() {
 		// all pedal accidentals temporarily set to 72 EDO
-		pedalStates[pitchClass].interval = Math.pow(2, pedal.val()/72);
+		let interval = Math.pow(2, pedal.val()/72);
+		pedalStates[pitchClass].interval = interval;
+		pedal.next(".cents").html(ratioToCents(interval).toFixed(2) + "¢");
 	});
 });
+
+function ratioToCents(ratio) {
+	return 1200 * 3.322038403 * Math.log(ratio);
+}

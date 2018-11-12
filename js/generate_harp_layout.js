@@ -34,13 +34,13 @@ var harp =
 	"</div>" +
 	"<div id=\"harp-pedals\">" + 
 		"<h3>PEDALS:</h3></br></br>" +
-		"A: <input type=\"range\" min=\"-5\" max=\"5\" value=\"0\" id=\"A-pedal\" class=\"harp-pedal\"></br></br></br>" +
-		"B: <input type=\"range\" min=\"-5\" max=\"5\" value=\"0\" id=\"B-pedal\" class=\"harp-pedal\"></br></br></br>" +
-		"C: <input type=\"range\" min=\"-5\" max=\"5\" value=\"0\" id=\"C-pedal\" class=\"harp-pedal\"></br></br></br>" +
-		"D: <input type=\"range\" min=\"-5\" max=\"5\" value=\"0\" id=\"D-pedal\" class=\"harp-pedal\"></br></br></br>" +
-		"E: <input type=\"range\" min=\"-5\" max=\"5\" value=\"0\" id=\"E-pedal\" class=\"harp-pedal\"></br></br></br>" +
-		"F: <input type=\"range\" min=\"-5\" max=\"5\" value=\"0\" id=\"F-pedal\" class=\"harp-pedal\"></br></br></br>" +
-		"G: <input type=\"range\" min=\"-5\" max=\"5\" value=\"0\" id=\"G-pedal\" class=\"harp-pedal\">" +
+		"A: <input type=\"range\" min=\"-5\" max=\"5\" value=\"0\" id=\"A-pedal\" class=\"harp-pedal\"> <span class=\"cents\">0.00¢</span></br></br></br>" +
+		"B: <input type=\"range\" min=\"-5\" max=\"5\" value=\"0\" id=\"B-pedal\" class=\"harp-pedal\"> <span class=\"cents\">0.00¢</span></br></br></br>" +
+		"C: <input type=\"range\" min=\"-5\" max=\"5\" value=\"0\" id=\"C-pedal\" class=\"harp-pedal\"> <span class=\"cents\">0.00¢</span></br></br></br>" +
+		"D: <input type=\"range\" min=\"-5\" max=\"5\" value=\"0\" id=\"D-pedal\" class=\"harp-pedal\"> <span class=\"cents\">0.00¢</span></br></br></br>" +
+		"E: <input type=\"range\" min=\"-5\" max=\"5\" value=\"0\" id=\"E-pedal\" class=\"harp-pedal\"> <span class=\"cents\">0.00¢</span></br></br></br>" +
+		"F: <input type=\"range\" min=\"-5\" max=\"5\" value=\"0\" id=\"F-pedal\" class=\"harp-pedal\"> <span class=\"cents\">0.00¢</span></br></br></br>" +
+		"G: <input type=\"range\" min=\"-5\" max=\"5\" value=\"0\" id=\"G-pedal\" class=\"harp-pedal\"> <span class=\"cents\">0.00¢</span>" +
 	"</div>"
 
 $("#harp").append(harp);
