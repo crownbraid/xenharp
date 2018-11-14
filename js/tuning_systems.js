@@ -42,6 +42,18 @@ const tuningSystems = {
 		E: Math.pow(2, 10/17),
 		F: Math.pow(2, 13/17),
 		G: Math.pow(2, 16/17)
+	},
+
+
+	"14 EDO": {
+		name: "14 EDO",
+		A: 1,
+		B: Math.pow(2, 2/14),
+		C: Math.pow(2, 3/14),
+		D: Math.pow(2, 5/14),
+		E: Math.pow(2, 7/14),
+		F: Math.pow(2, 8/14),
+		G: Math.pow(2, 11/14)
 	}
 }
 

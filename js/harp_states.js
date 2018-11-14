@@ -5,7 +5,7 @@
 	The only problem this poses is that it may be complicated to dynamicly reflect pedal shifts
 	in already sounding strings */
 
-let	tuningSystem = tuningSystems["Pythagorean"],
+let	tuningSystem = tuningSystems["14 EDO"],
 	pedalStates = {
 		A: {interval: 1},
 		B: {interval: 1},
@@ -74,5 +74,5 @@ $(".harp-pedal").each(function() {
 });
 
 function ratioToCents(ratio) {
-	return 1200 * 3.322038403 * Math.log(ratio);
+	return 1200 * Math.log(ratio) / 0.69314718056;
 }
