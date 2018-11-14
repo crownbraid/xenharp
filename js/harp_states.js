@@ -5,7 +5,7 @@
 	The only problem this poses is that it may be complicated to dynamicly reflect pedal shifts
 	in already sounding strings */
 
-let	tuningSystem = tuningSystems["14 EDO"],
+let	tuningSystem = tuningSystems["31 EDO"],
 	pedalStates = {
 		A: {interval: 1},
 		B: {interval: 1},
