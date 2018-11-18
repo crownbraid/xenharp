@@ -1,13 +1,13 @@
-# objective
-to synthesize a microtuned diatonic pedal harp.
+# xenharp: microtuned diatonic pedal harp synthesizer
 
-current functionality:
-  1. can specify tuning of diatonic scale by setting a scale - as defined in *tuning_systems.js* - and a concert pitch.
-  2. can microshift each string by 12 intervals.
+### Current Functionality
+Diatonic scale is tuned in pedal-states file, by defining a tuning system (from *tuning_systems.js*) and a concert pitch. The pedals microshift each pitch class by 12 intervals (current scale: 31EDO A440 / pedal-shifts: 1/72 of octave).
   
-   (current default: 31EDO at A440, with pedal shifts of 1/6 of a 12EDO semitone).
-  
-UI should entail an image of a harp without strings or pedals, with animated strings and pedals superimposed.
+### Future Plans
+ - dropdown menu for selecting tuning system
+ - input field for defining concert pitch
+ - pedal modulation should be scale specific
+ - UI should entail a photograph of a harp without strings or pedals, with animated strings and pedals superimposed.
 
-## technologies:
+### technologies:
 jQuery, Tone.js
