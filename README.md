@@ -1,4 +1,4 @@
-## xenharp: microtuned diatonic pedal harp synthesizer
+## XENHARP: microtuned diatonic pedal harp synthesizer
 
 ### Current Functionality
 Diatonic scale is tuned in pedal-states file, by defining a tuning system (from *tuning_systems.js*) and a concert pitch. The pedals microshift each pitch class by 12 intervals (current scale: 31EDO A440 / pedal-shifts: 1/72 of octave).
