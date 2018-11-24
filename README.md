@@ -6,10 +6,10 @@ Diatonic scale is tuned (in *harp_states.js*) by defining a tuning system (from 
 *TEMP DEFAULT: 31-EDO A-440 & pedal-shifts of 1/6 12EDO semitone.*
   
 ### Future Plans
+ - UI entails a photograph of a harp without strings or pedals, with animated strings and pedals superimposed.
  - dropdown menu for selecting tuning system
  - input field for defining concert pitch
  - pedal modulation should be scale specific
- - UI should entail a photograph of a harp without strings or pedals, with animated strings and pedals superimposed.
-
+ 
 ### technologies:
 jQuery, Tone.js
